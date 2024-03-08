@@ -41,9 +41,6 @@ City.prototype.cookies_sold_hourly = function () {
 
 
 
-
-
-
 City.prototype.render_list = function () {
   for (let i = 0; i < hours.length; i++) {
     let listElement = document.getElementById(this.Location);
