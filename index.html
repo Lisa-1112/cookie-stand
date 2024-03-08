@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title> Salmon Cookies </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
     </head>
   <body>
-    <header>
-      <h1>Seattle-cookies</h2>
-      <ul id="Seattle">
-      </ul>
+     <!-- Cookies sold per hour -->
+    <form id="Cookie-Stand-form">
+        <fieldset>
+          <legend>Create a Cookie-Stand</legend>
+          <div class="input-container">
+            <label for="cookie-stand">Name</label>
+            <input id="cookie-stand" name="name" type="text" placeholder="Cookie-Stand">
+          </div>
+          <div class="input-container">
+            <label for="cookie-stand-ap">Minimum Customer Per Hour</label>
+            <input id="cookie-stand-ap" name="ph" type="number" placeholder="10">
+          </div>
+          <div class="input-container">
+            <label for="cookie-stand">Maximum Customer Per Hour</label>
+            <input id="cookie-stand" name="ph" type="number" placeholder="100">
+          </div>
+          <div class="input-container">
+            <label for="cookie-stand">Adverage Cookie Sales</label>
+            <input id="cookie-stand" name="ph" type="number" placeholder="60">
+            </div>
+          <!-- A button of type submit will fire the submit on the form -->
+          <button type="submit">Click Me!!</button>
+        </fieldset>
+      </form>
 
-      <h1>Tokyo-cookies</h2>
-      <ul id="Tokyo">
-      </ul>
-
-      <h1>Dubai-cookies</h2>
-      <ul id="Dubai">
-      </ul>
-
-      <h1>Paris-cookies</h2>
-      <ul id="Paris">
-      </ul>
-      
-      <h1>Lima-cookies</h2>
-      <ul id="Lima">
-      </ul>
-              
+         
       <table>
         <!--Te header of the table -->
         <theatd></thead>
         <!-- Where all the data goes -->
         <tbody id="table-body">
-          <tr>
+          <!-- <tr>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            </tr>
+            </tr> -->
             </tbody>
             <!--The bottom of the table -->
-            
-            2
-  
 
+            <header>
+              <h1>seattle-cookies</h1>
+              <ul id="Seattle">
+              <ol>Hours open 10:00 am to 5:00 pm Monday through Friday</ol>
+              <ol>Closed Saturday and Sunday</ol>
+            </ul>
+              <h1>tokyo-cookies</h1>
+              <ul id="Tokyo">
+              <ol>Hours open 10:00 am to 6:00 pm Monday through Friday</ol>
+              <ol>Saturday 11:00 am to 5:00 pm Closed Sunday</ol>
+             </ul>
+              <h1>dubai-cookies</h1>
+              <ul id="Dubai">
+              <ol>Hours open 9:00 am to 6:00 pm Monday through Friday</ol>
+              <ol>Closed Saturday and Sunday</ol>
+             </ul>
+              <h1>paris-cookies</h1>
+              <ul id="Paris">
+              <ol>Hours open 8:00 am to 8:00 pm Monday through Friday</ol>
+              <ol>Closed Saturday and Sunday</ol>
+              </ul>
+              <h1>lima-cookies</h1>
+              <ul id="Lima">
+              <ol>Hours open 10:00 am to 6:00 pm Monday through Thursday</ol>
+              <ol> Closed Friday, Saturday, and Sunday</ol>
+             </ul>
+
+  <header>Sales Hourly: 6am,7am,8am,9am,10am,11am,12pm,1pm,2pm,3pm,4pm,5pm,6pm,7pm=Total </header>
     </header>
     
     <script src="js/app.js"></script>
