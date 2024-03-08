@@ -106,26 +106,26 @@ for (let i = 0; i < hours.length; i++) {
  Paris.cookies_sold_hourly
  Lima.cookies_sold_hourly
 
- let Seattle = {
-  Location: 'seattle',
-  min_customer: 23,
-  max_customer: 65,
-  avg_cookie_sales: 6.3,
-  cookies_sold_hourly: function () {
-  this.total = 0;
-  this.allcookies = [];
-  let total = 0;
-  total = 341
-  let allcookies = [];
-  for (let hour = 0; hour < 14; hour++) {
-  let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm',
-   '2pm', '3pm', '4pm', '5pm', '6pm', '7pm',]
-   }
-   this.document_id.innerHTML += '<li>' + hours[hours] + ':' + this.cookies_purchased(i)
-    + '</li>';
-   total = total + this.cookies_purchased(i);
-   },
-   }
+//  let Seattle = {
+//   Location: 'seattle',
+//   min_customer: 23,
+//   max_customer: 65,
+//   avg_cookie_sales: 6.3,
+//   cookies_sold_hourly: function () {
+//   this.total = 0;
+//   this.allcookies = [];
+//   let total = 0;
+//   total = 341
+//   let allcookies = [];
+//   for (let hour = 0; hour < 14; hour++) {
+//   let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm',
+//    '2pm', '3pm', '4pm', '5pm', '6pm', '7pm',]
+//    }
+//    this.document_id.innerHTML += '<li>' + hours[hours] + ':' + this.cookies_purchased(i)
+//     + '</li>';
+//    total = total + this.cookies_purchased(i);
+//    },
+//    }
 
 let Toyko = {
   Location: 'toyko',
